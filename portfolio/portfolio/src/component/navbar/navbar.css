@@ -1,0 +1,51 @@
+nav {
+  height: 5rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.logo {
+  object-fit: cover;
+  width: 4rem;
+  height: 3rem;
+}
+.nav-m ul {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+.nav-m ul li .captilization-nav:hover {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid yellow;
+}
+.nav-m ul li .captilization-nav {
+  text-transform: capitalize;
+  color: white;
+  transition: 0.5s;
+}
+.navend-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 2rem;
+}
+.navend-btn img {
+  object-fit: cover;
+  width: 1rem;
+  margin: 1rem;
+
+  height: 1rem;
+}
