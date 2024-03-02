@@ -7,7 +7,7 @@ import port3 from "../../assets/portfolio-4.png";
 import port4 from "../../assets/portfolio-5.png";
 import port5 from "../../assets/portfolio-6.png";
 
-function Myportfolio() {
+function MyPortfolio() {
   return (
     <section id="works">
       <h2 className="workstitle">My Portfofio</h2>
@@ -28,4 +28,4 @@ function Myportfolio() {
   );
 }
 
-export default Myportfolio;
+export default MyPortfolio;

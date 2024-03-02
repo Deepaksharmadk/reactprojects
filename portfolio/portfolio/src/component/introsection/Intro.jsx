@@ -3,15 +3,16 @@ import "./intro.css";
 import introimg from "../../assets/image.png";
 import hireme from "../../assets/hireme.png";
 import { NavLink } from "react-router-dom";
+import ExampleComponent from "../TypingAnimation/ExampleComponent";
 function Intro() {
   return (
     <section id="intro">
       <div className="into-context">
         <span className="hello">Hello,</span>
         <span className="introtext">
-          I'm <span className="intro-name">Deepak</span>
+          I'm <span className="intro-name">Deepak Sharma</span>
           <br />
-          Web Developer
+          <ExampleComponent />
         </span>
         <p className="intopara">I am a skill</p>
         <NavLink>
