@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./component/navbar/Navbar";
 import Intro from "./component/introsection/Intro";
 import Skills from "./component/skills/Skills";
+import Myportfolio from "./component/myportfolio/Myportfolio";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Intro />
       <Skills />
+      <Myportfolio />
     </BrowserRouter>
   );
 }
