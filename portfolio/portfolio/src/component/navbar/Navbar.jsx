@@ -19,7 +19,7 @@ function Navbar() {
             <NavLink className="captilization-nav">portfolio</NavLink>
           </li>
           <li>
-            <NavLink className="captilization-nav">gtihub</NavLink>
+            <NavLink className="captilization-nav">github</NavLink>
           </li>
         </ul>
       </div>
