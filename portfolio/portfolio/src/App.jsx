@@ -1,9 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import Navbar from "./component/navbar/Navbar";
-import Intro from "./component/introsection/Intro";
+import Intro from "./component/IntroSection/Intro";
 import Skills from "./component/skills/Skills";
-import Myportfolio from "./component/myportfolio/Myportfolio";
+import Contact from "./component/ContactPage/Contact";
+import Footer from "./component/Footer/Footer";
+import MyPortfolio from "./component/MyPortfolio/MyPortfolio";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Navbar />
       <Intro />
       <Skills />
-      <Myportfolio />
+      <MyPortfolio />
+      <Contact />
+      <Footer />
     </BrowserRouter>
   );
 }
