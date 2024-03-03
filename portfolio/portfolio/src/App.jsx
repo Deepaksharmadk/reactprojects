@@ -7,6 +7,7 @@ import Contact from "./component/ContactPage/Contact";
 import Footer from "./component/Footer/Footer";
 import MyPortfolio from "./component/MyPortfolio/MyPortfolio";
 import ExampleComponent from "./component/TypingAnimation/ExampleComponent";
+import Github from "./component/Github/Github";
 
 function App() {
   return (
@@ -16,8 +17,6 @@ function App() {
       <Skills />
       <MyPortfolio />
       <Contact />
-      <ExampleComponent />
-      <Footer />
     </BrowserRouter>
   );
 }
