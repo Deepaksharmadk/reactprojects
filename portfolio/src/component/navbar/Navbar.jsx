@@ -13,30 +13,39 @@ function Navbar() {
       <div className="nav-m">
         <ul>
           <li>
-            <NavLink className="captilization-nav">home</NavLink>
+            <NavLink to="/" className="captilization-nav">
+              home
+            </NavLink>
           </li>
           <li>
-            <NavLink className="captilization-nav">about</NavLink>
+            <NavLink to="/about" className="captilization-nav">
+              about
+            </NavLink>
           </li>
           <li>
-            <NavLink className="captilization-nav">portfolio</NavLink>
+            <NavLink to="/portfolio" className="captilization-nav">
+              portfolio
+            </NavLink>
           </li>
           <li>
-            <NavLink className="captilization-nav">github</NavLink>
+            <NavLink to="/github" className="captilization-nav">
+              github
+            </NavLink>
           </li>
         </ul>
       </div>
       <button
         className="navend-btn"
-        onClick={() => {
-          const contact = document.querySelector(".contact");
+        // onClick={() => {
+        //   const contact = document.querySelector(".contact");
 
-          contact.scrollIntoView({ behavior: "smooth" });
-          console.log(contact);
-        }}
+        //   contact.scrollIntoView({ behavior: "smooth" });
+        //   console.log(contact);
+        // }}
       >
-        <img className="navimg-btn" src={contactimg} alt="" />
-        Contact Me
+        <NavLink to="/contact" className="contact-end">
+          Contact Me
+        </NavLink>
       </button>
       <img
         className="navimg-btnmenu"

@@ -1,22 +1,24 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+
+import About from "./component/IntroSection/Intro";
+
+import Page from "./page/Page";
 import Navbar from "./component/navbar/Navbar";
-import Intro from "./component/IntroSection/Intro";
-import Skills from "./component/skills/Skills";
-import Contact from "./component/ContactPage/Contact";
-import Footer from "./component/Footer/Footer";
 import MyPortfolio from "./component/MyPortfolio/MyPortfolio";
-import ExampleComponent from "./component/TypingAnimation/ExampleComponent";
-import Github from "./component/Github/Github";
+import Contact from "./component/ContactPage/Contact";
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Intro />
-      <Skills />
-      <MyPortfolio />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Page />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/portfolio" element={<MyPortfolio />}></Route>
+        <Route path="/github" element={<h2>github page</h2>}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
     </BrowserRouter>
   );
 }

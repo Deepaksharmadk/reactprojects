@@ -1,7 +1,8 @@
 .skills {
   overflow: hidden;
   width: 100vw;
-  max-width: 75rem;
+  /* max-width: 75rem; */
+  max-width: 50rem;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -11,14 +12,17 @@
 .skill-title {
   font-size: 3rem;
   font-size: 600;
-  padding-top: 3rem;
-  margin-bottom: 2.5rem;
+  padding-top: 0.5rem;
+  margin-bottom: 1rem;
+  text-decoration: underline;
 }
 .skillsdes {
   font-weight: 400;
   font-size: 1rem;
   max-width: 51rem;
-  padding: 0 2rem;
+
+  /* padding: 0 2rem; */
+  padding: 0 1rem;
 }
 .skillbars {
   width: 100vw;
@@ -29,8 +33,9 @@
 }
 .skillbar {
   display: flex;
-  margin: 1rem;
-  padding: 1.5rem 2rem;
+  margin: 0.5rem;
+  /* padding: 1.5rem 2rem; */
+  padding: 0.5rem 0.5rem;
   border-radius: 0.5rem;
   background-color: rgb(50, 50, 50);
 }
