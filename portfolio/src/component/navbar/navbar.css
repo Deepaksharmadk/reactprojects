@@ -12,10 +12,14 @@ nav {
   top: 0;
   z-index: 3;
 }
+.active {
+  color: red !important;
+}
 .logo {
   object-fit: cover;
   width: 4rem;
   height: 3rem;
+  color: yellow;
 }
 .nav-m ul {
   display: flex;

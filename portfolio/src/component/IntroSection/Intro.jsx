@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.css";
+import deepak12 from "../../assets/skillsimg/deepak12.png";
 import introimg from "../../assets/image.png";
 import hireme from "../../assets/hireme.png";
 import { NavLink } from "react-router-dom";
@@ -22,7 +23,7 @@ function Intro() {
           </button>
         </NavLink>
       </div>
-      <img className="into-context-img" src={introimg} alt="" />
+      <img className="into-context-img" src={deepak12} alt="" />
     </section>
   );
 }

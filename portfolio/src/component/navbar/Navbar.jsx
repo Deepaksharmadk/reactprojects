@@ -3,13 +3,13 @@ import React, { useState } from "react";
 import "./navbar.css";
 import menubar from "../../assets/menu.png";
 import contactimg from "../../assets/contact.png";
-import logo from "../../assets/logo.png";
+
 import { NavLink } from "react-router-dom";
 function Navbar() {
   const [showmenu, setshowmenu] = useState(false);
   return (
     <nav className="navbar">
-      <img className="logo" src={logo} alt="logo" />
+      <h2 className="logo">Deepak.</h2>
       <div className="nav-m">
         <ul>
           <li>
