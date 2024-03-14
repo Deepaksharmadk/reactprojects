@@ -9,6 +9,13 @@ function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
+    const name = document.getElementsByClassName("name").value;
+    if (!name) return alert("Enter your name");
+    const email = document.getElementsByClassName("email").value;
+    console.log(email);
+    if (!email) {
+      return alert("Please enter email");
+    }
 
     emailjs
       .sendForm("service_or69715", "template_2zymidi", form.current, {
