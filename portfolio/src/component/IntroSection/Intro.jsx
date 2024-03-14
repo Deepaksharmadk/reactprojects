@@ -15,13 +15,15 @@ function Intro() {
           <br />
           <ExampleComponent />
         </span>
-        <p className="intopara">I am a skill</p>
-        <NavLink>
+        <p className="intopara">
+          Currently, I’m Pursuing a Degree in Computer Science.
+        </p>
+        {/* <NavLink>
           <button className="btn-l">
             <img src={hireme} alt="" className="btnimg" />
-            Hire Me
+            <a href="www.linkedin.com/in/deepaksharmadk">Hire</a>
           </button>
-        </NavLink>
+        </NavLink> */}
       </div>
       <img className="into-context-img" src={deepak12} alt="" />
     </section>
